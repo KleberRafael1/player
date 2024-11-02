@@ -94,6 +94,13 @@
     color: #444444;
 }
 
+/* Ocultar o menu lateral em telas pequenas */
+@media (max-width: 600px) {
+    .menu__container {
+        display: block;
+    }
+}
+
 /* RODAPÉ */
 
 .rodape__container {
@@ -111,12 +118,6 @@
         display: block;
     }
 
-/* Ocultar o menu lateral em telas pequenas */
-@media (max-width: 600px) {
-    .menu__container {
-        display: none;
-    }
-}
 
     /* MENU LATERAL ADICIONADO NA ATIVIDADE EXTRA */
 
