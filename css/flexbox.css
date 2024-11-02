@@ -112,7 +112,7 @@
     }
 
 /* Ocultar o menu lateral em telas pequenas */
-@media (max-width: 834px) {
+@media (max-width: 600px) {
     .menu__container {
         display: none;
     }
