@@ -1,3 +1,10 @@
+/* Ocultar o menu lateral em telas pequenas */
+@media (max-width: 600px) {
+    .menu__container {
+        display: block;
+    }
+}
+
 /* CABEÇALHO */
 
 .cabecalho__container {
@@ -94,12 +101,7 @@
     color: #444444;
 }
 
-/* Ocultar o menu lateral em telas pequenas */
-@media (max-width: 600px) {
-    .menu__container {
-        display: block;
-    }
-}
+
 
 /* RODAPÉ */
 
