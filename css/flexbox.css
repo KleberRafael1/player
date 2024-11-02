@@ -111,6 +111,13 @@
         display: block;
     }
 
+/* Ocultar o menu lateral em telas pequenas */
+@media (max-width: 834px) {
+    .menu__container {
+        display: none;
+    }
+}
+
     /* MENU LATERAL ADICIONADO NA ATIVIDADE EXTRA */
 
     .menu__container {
