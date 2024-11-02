@@ -1,9 +1,17 @@
 /* Ocultar o menu lateral em telas pequenas */
 @media (max-width: 600px) {
-    .menu__container {
-        display: block;
+    .nav {
+        display: none;
     }
 }
+
+/* Ocultar o menu lateral em telas pequenas */
+@media (max-width: 600px) {
+    .menu__container {
+        display: none;
+    }
+}
+
 
 /* CABEÇALHO */
 
